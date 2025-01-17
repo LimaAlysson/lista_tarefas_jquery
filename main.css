@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #b4acac;
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    width: 300px;
+    height: 500px;
+}
+
+form {
+    padding: 20px 0;
+    text-align: center;
+}
+
+li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+input, button {
+    padding: 10px;
+}
+
+button {
+    background-color: gray;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.checklist {
+    text-decoration: line-through;
+}
